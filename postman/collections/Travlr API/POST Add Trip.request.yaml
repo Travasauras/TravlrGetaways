@@ -1,0 +1,16 @@
+$kind: http-request
+description: ""
+url: http://localhost:3000/api/trips
+method: POST
+body:
+  type: urlencoded
+  content:
+    code: MEGR220119
+    name: Mega Reef
+    length: 6 nights / 7 days
+    start: 2022-01-19T08:00:00Z
+    resort: Barrier Island Resort
+    perPerson: "3499.00"
+    image: reef3.jpg
+    description: <p>The great barrier reef awaits!</p>
+order: 1791309094635

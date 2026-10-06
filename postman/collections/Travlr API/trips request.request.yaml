@@ -1,0 +1,5 @@
+$kind: http-request
+description: ""
+url: http://localhost:3000/api/trips
+method: GET
+order: 1054791226537906
