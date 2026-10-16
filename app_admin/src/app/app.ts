@@ -1,10 +1,10 @@
 import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { CommonModule } from '@angular/common';
-
+import { Navbar } from './navbar/navbar'
 
 @Component({
-  imports: [RouterOutlet, CommonModule],
+  imports: [RouterOutlet, CommonModule, Navbar],
   selector: 'app-root',
   styleUrl: './app.css',
   templateUrl: './app.html',

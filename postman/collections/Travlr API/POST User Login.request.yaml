@@ -1,0 +1,17 @@
+$kind: http-request
+description: ""
+url: http://localhost:3000/api/login
+method: POST
+body:
+  type: urlencoded
+  content:
+    - key: name
+      value: Adam Sandler
+      disabled: true
+    - key: email
+      value: happy@gilmore.com
+      disabled: false
+    - key: password
+      value: SomeSpecialMagicString!
+      disabled: false
+order: 4482325249489438

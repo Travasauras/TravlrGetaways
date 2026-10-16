@@ -1,0 +1,23 @@
+$kind: http-request
+description: ""
+url: http://localhost:3000/api/trips/DAWR210315
+method: PUT
+body:
+  type: urlencoded
+  content:
+    - key: name
+      value: Blue Lagoon Reef
+      disabled: false
+    - key: email
+      value: happy@gilmore.com
+      disabled: true
+      description: ""
+    - key: password
+      value: SomeSpecialMagicString!
+      disabled: true
+      description: ""
+auth:
+  type: bearer
+  credentials:
+    token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2YWQwNDkwZWI3MTVkY2E2OWRiZTY1MDMiLCJlbWFpbCI6ImhhcHB5QGdpbG1vcmUuY29tIiwibmFtZSI6IkFkYW0gU2FuZGxlciIsImlhdCI6MTc5MjA4MzIyMiwiZXhwIjoxNzkyMDg2ODIyfQ.RDtH0uadzikd1jVvNkxybowLg2Rk_xFtbnNPKeZo8gc
+order: 4482325249490438
