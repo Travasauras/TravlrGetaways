@@ -1,0 +1,11 @@
+$kind: http-request
+description: ""
+url: http://localhost:3000/api/register
+method: POST
+body:
+  type: urlencoded
+  content:
+    name: Adam Sandler
+    email: happy@gilmore.com
+    password: SomeSpecialMagicString!
+order: 4482325249488438
